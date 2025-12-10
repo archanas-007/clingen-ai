@@ -1,0 +1,52 @@
+# -------------------------
+# OS & Editor Files
+# -------------------------
+.DS_Store
+.vscode/
+.streamlit/
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# -------------------------
+# Environment Files
+# -------------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------------
+# Data & Cache
+# -------------------------
+data/chroma_db/
+*.db
+*.sqlite
+*.log
+
+# Ignore VCF files (genomics data)
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Node (if you ever use frontend components)
+# -------------------------
+node_modules/
